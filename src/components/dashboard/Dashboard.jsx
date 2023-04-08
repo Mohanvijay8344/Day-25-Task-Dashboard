@@ -1,9 +1,9 @@
 import React from "react";
-import ContentPasteIcon from '@mui/icons-material/ContentPaste';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
-import AssignmentIcon from '@mui/icons-material/Assignment';
-import PendingActionsIcon from '@mui/icons-material/PendingActions';
-import { Pie } from "./Pie";
+import ContentPasteIcon from "@mui/icons-material/ContentPaste";
+import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import AssignmentIcon from "@mui/icons-material/Assignment";
+import PendingActionsIcon from "@mui/icons-material/PendingActions";
+import { Pie } from "../chart/Pie";
 
 export function Dash() {
   return (
@@ -13,19 +13,23 @@ export function Dash() {
       </div>
       <div className="toprow">
         <div className="first">
-          <div className="co">EARNINGS (MONTHLY)
-            <ContentPasteIcon fontSize="large" /></div>
+          <div className="co">
+            EARNINGS (MONTHLY)
+            <ContentPasteIcon fontSize="large" />
+          </div>
           <div className="val">$40,000</div>
         </div>
         <div className="sec">
-          <div className="co">EARNINGS (YEARLY)
+          <div className="co">
+            EARNINGS (YEARLY)
             <AttachMoneyIcon fontSize="large" />
           </div>
 
           <div className="val">$215,000</div>
         </div>
         <div className="thi">
-          <div className="co">TASKS
+          <div className="co">
+            TASKS
             <AssignmentIcon fontSize="large" />
           </div>
           <div className="val"></div>
@@ -34,14 +38,15 @@ export function Dash() {
           </div>
         </div>
         <div className="four">
-          <div className="co">PENDING TASKS
+          <div className="co">
+            PENDING TASKS
             <PendingActionsIcon fontSize="large" />
           </div>
           <div className="val">18</div>
         </div>
       </div>
 
-      <div>
+      <div className="pies">
         <Pie />
       </div>
       <div className="line3">
@@ -59,30 +64,30 @@ export function Dash() {
           <div className="Sales">
             <p>Sales Tracking</p>
             <p>40%</p>
-          </div>  
+          </div>
           <div class="container">
             <div class="skills css">40%</div>
           </div>
 
           <div className="Customer">
-          <p>Customer Database</p>
-          <p>60%</p>
+            <p>Customer Database</p>
+            <p>60%</p>
           </div>
           <div class="container">
             <div class="skills js">60%</div>
           </div>
 
           <div className="Payout">
-          <p>Payout Details</p>
-          <p>80%</p>
+            <p>Payout Details</p>
+            <p>80%</p>
           </div>
           <div class="container">
             <div class="skills php">80%</div>
           </div>
 
           <div className="Account">
-          <p>Account Setup</p>
-          <p>Complete</p>
+            <p>Account Setup</p>
+            <p>Complete</p>
           </div>
           <div class="container">
             <div class="skills php1">Complete</div>
@@ -91,8 +96,14 @@ export function Dash() {
 
         <div className="line3-2">
           <h2 className="title">Illustration</h2>
-          <img className="img" src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_posting_photo.svg"></img>
-          <p className="add">Add some quality, svg illustrations to your project courtesy of unDraw, a constantly updated collection of beautiful svg images that you can use completely free and without attribution!
+          <img
+            className="img"
+            src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_posting_photo.svg"
+          ></img>
+          <p className="add">
+            Add some quality, svg illustrations to your project courtesy of
+            unDraw, a constantly updated collection of beautiful svg images that
+            you can use completely free and without attribution!
           </p>
           <p className="add1">Browse Illustrations on unDraw →</p>
         </div>
@@ -132,17 +143,22 @@ export function Dash() {
             <p>Dark</p>
             <p>#5a5c69</p>
           </div>
-
         </div>
         <div className="line3-21">
           <h2 className="title">Development Approach</h2>
 
-          <p className="add">SB Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility classes.
+          <p className="add">
+            SB Admin 2 makes extensive use of Bootstrap 4 utility classes in
+            order to reduce CSS bloat and poor page performance. Custom CSS
+            classes are used to create custom components and custom utility
+            classes.
           </p>
-          <p className="add1">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+          <p className="add1">
+            Before working with this theme, you should become familiar with the
+            Bootstrap framework, especially the utility classes.
+          </p>
         </div>
       </div>
-
     </div>
   );
 }

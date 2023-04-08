@@ -61,10 +61,6 @@ h2{
 margin-left: 25px;
 color:rgb(104, 100, 100);
 }
-.co{
-  display: flex;
-  justify-content: space-between;
-}
 .container{
   width:100%;
   background-color: darkslategrey;
@@ -79,7 +75,6 @@ color:rgb(104, 100, 100);
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  gap:100px;
 }
 .line3{
   display: flex;
@@ -101,6 +96,7 @@ color:rgb(104, 100, 100);
   border-radius: 10px;
   box-shadow: 10px 10px 5px rgb(169, 172, 172);
   padding-right: 20px;
+  margin-left: 20px;
 }
 .img{
   width:500px;
@@ -256,8 +252,8 @@ color:rgb(104, 100, 100);
   box-shadow: 10px 10px 5px rgb(169, 172, 172);
   padding: 20px;
   position: relative;
-  right:100px;
   margin-top: 40px;
+  margin-left: 30px;
 }
 .Server{
   display: flex;
@@ -283,4 +279,8 @@ color:rgb(104, 100, 100);
   display: flex;
   flex-direction: row;;
   justify-content: space-between;
+}
+
+.pies{
+  margin-right: 80px;
 }
